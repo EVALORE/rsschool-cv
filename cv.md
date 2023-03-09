@@ -22,7 +22,7 @@ Eremia Vladimir
 * __Workspace:__ VScode, GIT, GITHUB, Windows
 --------------------
 ## Code sample
-```JS
+```JavaScript
 function pigIt(str){
 return str.split(" ").map(s => (s != "!" && s != "?") ? s.slice(1) + s[0] + "ay" : s).join(" ")
 }
